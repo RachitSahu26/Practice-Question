@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+display: flex;
+justify-content: center;
+}
+
+.post-card{
+border: 2px solid red;
+width: 300px;
+height: 520px;
+margin-top: 120px;
+color: white;
+border-radius: 20px;
+}
+.post-card img{
+
+    width: 100%;
+    /* padding: 20px; */
+object-fit: cover;
+border-radius: 20px;
+}
+.post-card h1{
+    text-align: center;
+}
+.add-btn{
+    background-color: yellow;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 70px;
+    /* margin-top: 20px; */
+    padding: 10px;
+}
+
+.conditon-text{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
